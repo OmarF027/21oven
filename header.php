@@ -1,7 +1,7 @@
 <header>
     <div class="logo">
         <a href="index.php">
-            <img src="img/logo3.jpg" alt="PolloTribe Logo">
+            <img src="img/logo3.jpg" alt="21Oven Logo">
         </a>
     </div>
 

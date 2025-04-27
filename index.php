@@ -10,7 +10,23 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    <!-- Inserisci il CSS Inline qui -->
+    <style>
+        @media (min-width: 769px) {
+            .specialita .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr); /* Tre colonne per schermi desktop */
+                gap: 20px;
+                width: 100%; /* Assicurati che la griglia occupi tutta la larghezza disponibile */
+            }
+        }
 
+        @media (max-width: 768px) {
+            .specialita .grid {
+                grid-template-columns: repeat(1, 1fr); /* Una colonna per schermi piccoli */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -56,5 +72,3 @@
 
 </body>
 </html>
-
-

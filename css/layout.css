@@ -254,9 +254,10 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-bottom: 30px;
+    justify-items: center; /* Aggiunta questa linea per centrare il contenuto */
 }
 
 .footer-info h3,
